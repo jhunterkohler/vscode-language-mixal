@@ -2,7 +2,7 @@
     "name": "language-mixal",
     "displayName": "MIX Assembly Language",
     "description": "MIX assembly language support",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "engines": {
         "vscode": "^1.91.0"
     },
@@ -18,7 +18,6 @@
                     "mixal"
                 ],
                 "extensions": [
-                    ".mix",
                     ".mixal"
                 ],
                 "configuration": "./language-configuration.json"
