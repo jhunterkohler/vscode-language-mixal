@@ -1,6 +1,6 @@
 {
     "name": "language-mixal",
-    "displayName": "MIX Assembly Language Support",
+    "displayName": "MIX Assembly Language",
     "description": "MIX assembly language support",
     "version": "1.0.0",
     "engines": {
