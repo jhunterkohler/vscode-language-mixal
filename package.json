@@ -1,0 +1,40 @@
+{
+    "name": "language-mixal",
+    "displayName": "MIX Assembly Language Support",
+    "description": "MIX assembly language support",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.91.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "mixal",
+                "aliases": [
+                    "MIXAL",
+                    "mixal"
+                ],
+                "extensions": [
+                    ".mix",
+                    ".mixal"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "mixal",
+                "scopeName": "source.mix",
+                "path": "./syntaxes/mixal.tmLanguage.json"
+            }
+        ]
+    },
+    "icon": "./logo.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jhunterkohler/vscode-language-mixal"
+    }
+}

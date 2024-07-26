@@ -1,0 +1,32 @@
+{
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "name": "MIXAL",
+    "scopeName": "source.mix",
+    "patterns": [
+        {
+            "name": "comment.line",
+            "match": "^\\*.*|(?<=^[a-zA-Z0-9]*[ \\t]+([a-zA-Z0-9]+[ \\t]+[0-9a-zA-Z:+,/*()=-]+|ALF[ \\t]+\".*?\"|CHAR|HLT)[ \\t]).*"
+        },
+        {
+            "name": "keyword.operator",
+            "match": "//|[+*/-]|\\b(NOP|F?(ADD|SUB|MUL|DIV)|NUM|CHAR|HLT|S[LR]([AC]|AX)|LD[AX1-6]N?|ST[AXJZ1-6]|IOC|IN|OUT|J(BUS|RED|MP|[LEG]|[NLG]E|[AX1-6](N|P|NN|NP|Z|NZ))|(INC|DEC|ENT|ENN|CMP)[AX1-6]|FCMP|ORIG|EQU|ALF|CON|END)\\b"
+        },
+        {
+            "name": "string.quoted.double",
+            "match": "(?<=\\bALF[ \\t]+)\"[^\"]{1,5}\"(?=\\s)"
+        },
+        {
+            "name": "variable.language",
+            "match": "(^[0-9]H|\\b[0-9]F|\\b[0-9]B)\\b"
+        },
+        {
+            "name": "variable.name",
+            "match": "\\b(?=[0-9]*?[a-zA-Z])[a-zA-Z0-9]{1,10}\\b"
+        },
+        {
+            "name": "constant.numeric",
+            "match": "[0-9]{1,10}"
+        }
+    ],
+    "repository": {}
+}
