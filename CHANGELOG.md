@@ -14,4 +14,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-[v1.0.0]: https://github.com/hunterkohler/vscode-language-mixal/releases/tag/v1.0.0
+[v1.0.0]: https://github.com/jhunterkohler/vscode-language-mixal/releases/tag/v1.0.0
