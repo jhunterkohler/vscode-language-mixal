@@ -5,7 +5,7 @@
     "patterns": [
         {
             "name": "comment.line",
-            "match": "^\\*.*|(?<=^[a-zA-Z0-9]*[ \\t]+([a-zA-Z0-9]+[ \\t]+[0-9a-zA-Z:+,/*()=-]+|ALF[ \\t]+\".*?\"|CHAR|HLT)[ \\t]).*"
+            "match": "^\\*.*|(?<=^[a-zA-Z0-9]*[ \\t]+([a-zA-Z0-9]+[ \\t]+[0-9a-zA-Z:+,/*()=-]+|ALF[ \\t]+\".*?\")[ \\t]).*"
         },
         {
             "name": "keyword.operator",
