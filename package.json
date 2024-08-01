@@ -2,7 +2,7 @@
     "name": "language-mixal",
     "displayName": "MIX Assembly Language",
     "description": "MIX assembly language support",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "engines": {
         "vscode": "^1.91.0"
     },
