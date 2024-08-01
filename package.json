@@ -36,5 +36,22 @@
         "type": "git",
         "url": "https://github.com/jhunterkohler/vscode-language-mixal"
     },
-    "publisher": "jhunterkohler"
+    "publisher": "jhunterkohler",
+    "devDependencies": {
+        "@types/vscode": "^1.91.0",
+        "prettier": "^3.3.3",
+        "typescript": "^5.4.5"
+    },
+    "main": "./out/extension.js",
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "pretest": "npm run compile",
+        "test": "vscode-test"
+    },
+    "activationEvents": [
+        "onLanguage:mixal",
+        "onStartupFinished"
+    ]
 }

@@ -6,12 +6,7 @@ This package provides language support for Donald Knuth's MIX Assembly Language 
 
 ## Features
 
-* Syntax highlighting.
-
-<!-- ## Requirements -->
-
-<!-- ## Extension Settings -->
-
-<!-- ## Known Issues -->
+- Syntax highlighting.
+- Code formatting.
 
 ---

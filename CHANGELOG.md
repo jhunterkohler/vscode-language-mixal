@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Code formatting.
+- Extension log.
+
 ### Fixed
 
 - Syntax bug allowing comments on `HLT` or `CHAR` instructions without arguments.
