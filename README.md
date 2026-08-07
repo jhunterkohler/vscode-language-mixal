@@ -1,3 +1,7 @@
+# ⚠️ Archived Repository
+
+This project has been moved into the [mix monorepo](https://github.com/jhunterkohler/mix) as one of the supported editors for that project.
+
 # MIX Assembly Language Support for VSCode
 
 ## About
